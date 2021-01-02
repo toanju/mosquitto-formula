@@ -5,7 +5,7 @@ mosquitto:
   pkg:
     name: mosquitto
   rootgroup: root
-  config: '/etc/mosquitto'
+  config: '/etc/mosquitto/mosquitto.conf'
   service:
     name: mosquitto
   # Just here for testing
