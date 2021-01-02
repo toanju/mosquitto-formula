@@ -8,8 +8,6 @@ mosquitto:
   config: '/etc/mosquitto'
   service:
     name: mosquitto
-  subcomponent:
-    config: '/etc/mosquitto-subcomponent-formula.conf'
   # Just here for testing
   added_in_defaults: defaults_value
   winner: defaults
