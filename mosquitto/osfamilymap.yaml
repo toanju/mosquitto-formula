@@ -17,7 +17,7 @@ Debian:
 
 RedHat:
   pkg:
-    name: mosquitto-redhat
+    name: mosquitto
   config: /etc/mosquitto.conf
 
 Suse:
