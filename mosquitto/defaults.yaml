@@ -10,4 +10,3 @@ mosquitto:
     name: mosquitto
   # Just here for testing
   added_in_defaults: defaults_value
-  winner: defaults
