@@ -12,25 +12,25 @@
 ---
 Debian:
   pkg:
-    name: TEMPLATE-debian
-  config: /etc/TEMPLATE.d/custom.conf
+    name: mosquitto-debian
+  config: /etc/mosquitto.d/custom.conf
 
 RedHat:
   pkg:
-    name: TEMPLATE-redhat
-  config: /etc/TEMPLATE.conf
+    name: mosquitto-redhat
+  config: /etc/mosquitto.conf
 
 Suse:
   pkg:
-    name: TEMPLATE-suse
+    name: mosquitto-suse
 
 Gentoo:
   pkg:
-    name: TEMPLATE-gentoo
+    name: mosquitto-gentoo
 
 Arch:
   pkg:
-    name: TEMPLATE-arch
+    name: mosquitto-arch
   service:
     name: service-arch
 
